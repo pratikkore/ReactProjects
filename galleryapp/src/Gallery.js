@@ -10,6 +10,7 @@ import Img5 from './Img/img5.jpg';
 import Img6 from './Img/img6.jpg';
 
 
+
 const Gallery = () => {
 
 

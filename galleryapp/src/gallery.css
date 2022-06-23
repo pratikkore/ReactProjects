@@ -43,17 +43,13 @@
   justify-content: center;
   align-items: center;
   background-color: #000000;
-  transition: opacity 0.4s ease, visibilty 0.4s ease, transform 0.5s ease-in-out;
   visibility: hidden;
-  opacity: 0;
-  transform: scale(0);
-  overflow: hidden;
-  z-index: 999;
 }
 .model.open {
   visibility: visible;
   opacity: 1;
-  transform: scale(1);
+  z-index: 999;
+
 }
 
 .model img {
@@ -67,6 +63,7 @@
   padding: 20px 0 20px;
   margin: 0 auto;
 }
+
 
 .model.open svg{
     position: fixed;
